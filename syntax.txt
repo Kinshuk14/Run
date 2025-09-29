@@ -1,0 +1,6 @@
+UnLike go you don't have any package installed yet in Run,
+
+   So to install a  Run package run "Run wants "fmt"
+
+
+   after it you get "Fmt" Package
