@@ -1,2 +1,6 @@
-# Run
-Run is a superset programming language of Go(Golang) It makes easy to use Packages like formatter functions that import "fmt" and you could also use export "fmt" to export the formatter package's data and make the code memory saving it also has a advantage of Run is free and you can use Love2d framework inside go.
+# Run ("RunLang").
+<img width="326" height="213" alt="image" src="https://github.com/user-attachments/assets/0981ded3-4a27-45dd-b129-b3029f741ec4" />
+
+The Command lines for Run Compile and others is:-
+ 1.To Run a file without building a .exe:-
+ 
