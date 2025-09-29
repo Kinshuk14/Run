@@ -8,7 +8,9 @@
 [![Platform](https://img.shields.io/badge/platform-Linux_windows_subsystem-red)](https://github.com/Kinshuk14/RunLang)
 
 RunLang is a **fast, lightweight scripting language** for quick execution and compilation.  
-It is a **superset of the Go (Golang) programming language**, designed for simplicity and speed.  
+It is a **superset of the Go (Golang) programming language**, designed for simplicity, speed, and memory efficiency.  
+
+RunLang allows you to **import and export packages**, delete unused functions for memory optimization, and even use the **Love2D framework** inside Go.  
 
 ---
 
@@ -21,6 +23,10 @@ It is a **superset of the Go (Golang) programming language**, designed for simpl
 | 3️⃣ | `Run build xyz.run` | Build and **run the `.exe` immediately** |
 | 4️⃣ | `Run make exe` | Build a **whole project to `.exe`** |
 | 5️⃣ | `Run be careless for exe` | Run a **whole project without building `.exe`** |
+| 6️⃣ | `Run help` | List all commands |
+| 7️⃣ | `Run version` | Check RunLang version |
+
+> 💡 All commands are **copyable directly on GitHub**.
 
 ---
 
@@ -32,3 +38,7 @@ git clone https://github.com/Kinshuk14/RunLang.git
 
 # Move into the project folder
 cd RunLang
+
+
+
+## for more information about syntax read syntax.txt.
