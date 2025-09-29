@@ -5,6 +5,7 @@
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Kinshuk14/RunLang) 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) 
 [![Platform](https://img.shields.io/badge/platform-Windows-orange)](https://github.com/Kinshuk14/RunLang)
+[![Platform](https://img.shields.io/badge/platform-Linux_windows_subsystem-red)](https://github.com/Kinshuk14/RunLang)
 
 RunLang is a **fast, lightweight scripting language** for quick execution and compilation.  
 It is a **superset of the Go (Golang) programming language**, designed for simplicity and speed.  
