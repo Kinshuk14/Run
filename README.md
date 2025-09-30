@@ -23,22 +23,74 @@ RunLang allows you to **import and export packages**, delete unused functions fo
 | 3️⃣ | `Run build xyz.run` | Build and **run the `.exe` immediately** |
 | 4️⃣ | `Run make exe` | Build a **whole project to `.exe`** |
 | 5️⃣ | `Run be careless for exe` | Run a **whole project without building `.exe`** |
-| 6️⃣ | `Run help` | List all commands |
-| 7️⃣ | `Run version` | Check RunLang version |
-
-> 💡 All commands are **copyable directly on GitHub**.
 
 ---
 
 ## 💻 Installation
-
-```bash
-# Clone the repository
+**Clone the repository**
+~~~shell
 git clone https://github.com/Kinshuk14/RunLang.git
-
-# Move into the project folder
+~~~
+**Move into the project folder**
+~~~bash
 cd RunLang
+~~~
+## RunLang Syntax
+RunLang is a superset of Go with simplified syntax for quick scripting. Key syntax elements include:
 
+Functions: Define functions using fn instead of func.
+Packages: Use import "package_name" to import packages and export "package_name" to export them.
+Printing: Use fmt.Writeln to print text to the console with a newline.
+File Extension: Save RunLang files with a .run extension.
 
+For complete syntax details, refer to syntax.txt in the project folder.
 
-## for more information about syntax read syntax.txt.
+## Samples
+
+#### Print a String
+```Go
+package main
+
+import "fmt"
+
+fn main() {
+    fmt.Writeln("Yo, Guys")
+}
+```
+export "fmt"
+This code:
+
+Imports the fmt package for formatting and printing.
+Defines a main function using fn that prints "Yo, Guys" to the console.
+Exports the fmt package for use in other modules.
+Save it as example.run and run with Run gain speed example.run
+
+#### Variables and constants
+```Go
+var X string = "Hello"
+var Y num = 2
+var Z float = 32.34
+var XYZ boolean = True
+
+//or
+
+Make X string = "Hello"
+Make Y num = 2
+Make Z float = 32.34
+Make XYZ boolean = True
+
+//or
+
+X is 2
+Y is "Hello"
+Z is 32.34
+ZYZ IS True
+
+//for consts
+
+const X is "Hello"
+
+//or
+
+const Make X string = "Hello"
+~~~
