@@ -84,7 +84,7 @@ Make XYZ boolean = True
 X is 2
 Y is "Hello"
 Z is 32.34
-ZYZ IS True
+XYZ IS True
 
 //for consts
 
@@ -93,4 +93,8 @@ const X is "Hello"
 //or
 
 const Make X string = "Hello"
-~~~
+```
+
+https://github.com/user-attachments/assets/9de73c2c-5ccb-44b7-8f0b-03fc20ecce56
+
+
