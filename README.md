@@ -29,7 +29,7 @@ RunLang allows you to **import and export packages**, delete unused functions fo
 ## 💻 Installation
 **Clone the repository**
 ~~~shell
-git clone https://github.com/Kinshuk14/RunLang.git
+git clone https://github.com/Kinshuk14/Run.git
 ~~~
 **Move into the project folder**
 ~~~bash
