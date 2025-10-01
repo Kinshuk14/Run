@@ -2,10 +2,10 @@
 
 <img width="326" height="213" alt="RunLang Image" src="https://github.com/user-attachments/assets/0981ded3-4a27-45dd-b129-b3029f741ec4" />
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Kinshuk14/RunLang) 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/Kinshuk14/Run) 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE) 
-[![Platform](https://img.shields.io/badge/platform-Windows-orange)](https://github.com/Kinshuk14/RunLang)
-[![Platform](https://img.shields.io/badge/platform-Linux_windows_subsystem-red)](https://github.com/Kinshuk14/RunLang)
+[![Platform](https://img.shields.io/badge/platform-Windows-orange)](https://github.com/Kinshuk14/Run)
+[![Platform](https://img.shields.io/badge/platform-Linux_windows_subsystem-red)](https://github.com/Kinshuk14/Run)
 
 RunLang is a **fast, lightweight scripting language** for quick execution and compilation.  
 It is a **superset of the Go (Golang) programming language**, designed for simplicity, speed, and memory efficiency.  
